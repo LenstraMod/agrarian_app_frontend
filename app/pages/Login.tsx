@@ -7,15 +7,14 @@ export default function Login(){
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [loading,setLoading] = useState(false);
 
     const handleSubmit = () => {
         if(!email || !password){
             alert("Email dan password tidak boleh kosong!")
             return;
-        }
+        };
 
-        alert("Email : " + email)
+        alert("Email : " + email);
 }
 
     return(
@@ -38,6 +37,7 @@ export default function Login(){
                 <TextInput 
                     style={styles.input}
                     placeholder='Password'
+                    value={password}
                     onChangeText={setPassword}
                     
                 />
@@ -158,11 +158,11 @@ const styles = StyleSheet.create({
         shadowRadius: 5,
         elevation: 3,
         padding: 8,
+        marginRight: 19,
     },
     socialWrapper: {
         marginTop: 29,
         flexDirection: 'row',
         alignItems: 'center',
-        gap: 19,
     }
 });
