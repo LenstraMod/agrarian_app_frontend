@@ -77,15 +77,16 @@ const styles = StyleSheet.create({
     logo: {
         resizeMode: 'contain',
         alignSelf: 'center',
-        width: 292,
-        height: 292,
-        marginTop: -100,
+        width: 192,
+        height: 192,
+        marginTop: -60,
     },
-    title: {
+   title: {
         alignSelf: 'flex-start',
         color: '#6AC595',
         fontFamily: 'OpenSans_700Bold',
-        fontSize: 24
+        fontSize: 24,
+        marginTop: -30
     },
     subtitle: {
         alignSelf: 'flex-start',

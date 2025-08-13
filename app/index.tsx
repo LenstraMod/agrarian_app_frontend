@@ -12,6 +12,7 @@ export default function Index() {
     >
       <Text>Here some Link</Text>
       <Link href='../pages/Login'>Go to Login</Link>
+      <Link href='../pages/Chatbot'>Go to Chatbot</Link>
     </View>
   );
 }
